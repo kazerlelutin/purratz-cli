@@ -1,0 +1,22 @@
+{
+  "name": "purratz-cli",
+  "version": "1.10.1",
+  "description": "cli for create a Purratz project",
+  "main": "index.js",
+  "bin": {
+    "purratz-create-app": "./index.js",
+    "prz-ctrl": "./lib/ctrl.js",
+    "prz-service": "./lib/service.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kazerlelutin",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3"
+  }
+}
